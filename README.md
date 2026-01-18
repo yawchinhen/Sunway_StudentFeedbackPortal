@@ -63,28 +63,6 @@ The platform demonstrates how web technologies can support structured data colle
 | Maps | Google Maps iframe |
 
 
-## 📂 Folder Structure  
-/project-folder
-│
-├── index.html
-├── about.html
-├── feedback.html
-├── view-feedback.html
-├── gallery.html
-├── contact.html
-│
-├── /css
-│ └── style.css
-│
-├── /js
-│ ├── main.js
-│ ├── view-feedback.js
-│ ├── gallery.js
-│ └── contact.js
-│
-└── /images
-
-
 ## 📈 Business Analytics Relevance  
 This project simulates a structured feedback data pipeline where collected textual responses can later be used for:
 
