@@ -1,5 +1,5 @@
 # 🎓 Student Feedback Portal  
-*A Web-Based Feedback Collection & Visualization Platform*
+A Web-Based Feedback Collection & Visualization Platform
 
 ## 📌 Project Overview  
 The Student Feedback Portal is a responsive web application developed to allow students of Sunway University to submit and view feedback in an organized, interactive, and visually engaging way.  
