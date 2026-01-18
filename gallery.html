@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Student Feedback Portal</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/gallery.js"></script>
+</head>
+
+<body>
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Student<span>Feedback</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="feedback.html">Submit Feedback</a>
+      <a href="view-feedback.html">View Feedback</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </header>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-header solid-header">
+    <h1>Gallery</h1>
+    <p>Discover memorable moments and campus highlights shared by our community.</p>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <main class="gallery-section">
+    <h2>Sunway Moments</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/gallery1.jpg" alt="Campus View">
+        <div class="caption">Campus View 2025</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery2.jpg" alt="Student Life">
+        <div class="caption">Student Life</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery3.jpeg" alt="Event Highlights">
+        <div class="caption">Event Highlights</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery4.jpg" alt="Library">
+        <div class="caption">Library</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery5.jpg" alt="Graduation Ceremony">
+        <div class="caption">Graduation Ceremony</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery6.jpg" alt="Lecture Hall">
+        <div class="caption">Lecture Hall</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery7.jpg" alt="Campus Bridge">
+        <div class="caption">Campus Bridge</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery8.jpg" alt="Volunteering">
+        <div class="caption">Volunteering</div>
+      </div>
+    </div>
+
+    <!-- ===== VIDEO GALLERY ===== -->
+    <section class="video-section">
+      <h2>Featured Videos</h2>
+      <div class="video-container">
+
+        <div class="video-item">
+          <iframe 
+            src="https://www.youtube.com/embed/Fhv-0HOrhcY?si=mcEp-a4Dtr1SL03Z"
+            title="Sunway University Highlights"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <p class="video-caption">A day in life as a Sunway University International Student</p>
+        </div>
+
+        <div class="video-item">
+          <iframe 
+            src="https://www.youtube.com/embed/hc7I3SuxNmk"
+            title="Sunway-Lancaster : The Nation's Choice"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <p class="video-caption">Sunway-Lancaster: The Nation's Choice</p>
+        </div>
+
+        <div class="video-item">
+          <iframe 
+            src="https://www.youtube.com/embed/4Zn9XRbslyw"
+            title="Sunway University Campus Fly Through"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <p class="video-caption">Sunway University: Campus Fly Through</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Expanded Image" />
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Student Feedback Portal created by Yaw Chin Hen | Sunway University</p>
+  </footer>
+</body>
+</html>
+
+

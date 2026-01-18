@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Feedback Portal | Submit Feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Student<span>Feedback</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="feedback.html" class="active">Submit Feedback</a>
+      <a href="view-feedback.html">View Feedback</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </header>
+
+  <!-- ===== FEEDBACK FORM SECTION ===== -->
+  <main class="feedback-section">
+    <div class="container feedback-content">
+      <h1>We Value Your Feedback</h1>
+      <p>Please fill out the form below to share your experience and suggestions.</p>
+
+      <form id="feedbackForm" class="feedback-form" novalidate>
+        <!-- Student Info -->
+        <div class="form-group">
+          <label for="studentName">Full Name <span>*</span></label>
+          <input type="text" id="studentName" name="studentName" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="studentEmail">Email <span>*</span></label>
+          <input type="email" id="studentEmail" name="studentEmail" placeholder="example@imail.sunway.edu.my" required>
+        </div>
+
+        <div class="form-group">
+          <label for="course">Course <span>*</span></label>
+          <input type="text" id="course" name="course" placeholder="Enter your course name" required>
+        </div>
+
+        <!-- New Field: Gender -->
+        <div class="form-group">
+          <label>Gender <span>*</span></label>
+          <div class="rating-options">
+            <label><input type="radio" name="gender" value="Male" required> Male</label>
+            <label><input type="radio" name="gender" value="Female"> Female</label>
+          </div>
+        </div>
+
+        <!-- New Field: School -->
+        <div class="form-group">
+          <label for="school">School / Faculty <span>*</span></label>
+          <select id="school" name="school" required>
+            <option value="" disabled selected>Select your school</option>
+            <option value="Faculty of Arts and Social Sciences">Faculty of Arts and Social Sciences</option>
+            <option value="Faculty of Engineering and Technology">Faculty of Engineering and Technology</option>
+            <option value="Faculty of Medical and Life Sciences">Faculty of Medical and Life Sciences</option>
+            <option value="School of American Education">School of American Education</option>
+            <option value="School of Education">School of Education</option>
+            <option value="School of Hospitality and Tourism Management">School of Hospitality and Tourism Management</option>
+            <option value="School of Mathematical Sciences">School of Mathematical Sciences</option>
+            <option value="Sunway Business School">Sunway Business School</option>
+            <option value="Centre for English Language Studies">Centre for English Language Studies</option>
+            <option value="Centre for Professional and Continuing Education">Centre for Professional and Continuing Education</option>
+          </select>
+        </div>
+
+        <!-- Rating -->
+        <div class="form-group rating-group">
+          <label>Overall Experience <span>*</span></label>
+          <div class="rating-options">
+            <label><input type="radio" name="rating" value="Excellent" required> Excellent</label>
+            <label><input type="radio" name="rating" value="Good"> Good</label>
+            <label><input type="radio" name="rating" value="Average"> Average</label>
+            <label><input type="radio" name="rating" value="Poor"> Poor</label>
+          </div>
+        </div>
+
+        <!-- Topics -->
+        <div class="form-group">
+          <label>Feedback Type</label>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="type" value="Lecturer"> Lecturer</label>
+            <label><input type="checkbox" name="type" value="Course Content"> Course Content</label>
+            <label><input type="checkbox" name="type" value="Facilities"> Facilities</label>
+            <label><input type="checkbox" name="type" value="Others"> Others</label>
+          </div>
+        </div>
+
+        <!-- Comments -->
+        <div class="form-group">
+          <label for="comments">Your Feedback <span>*</span></label>
+          <textarea id="comments" name="comments" rows="5" placeholder="Write your comments here..." required></textarea>
+        </div>
+
+        <button type="submit" class="cta-btn">Submit Feedback</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Student Feedback Portal created by Yaw Chin Hen | Sunway University</p>
+  </footer>
+
+</body>
+</html>
+

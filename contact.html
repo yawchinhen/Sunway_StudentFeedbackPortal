@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Student Feedback Portal</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <script defer src="js/contact.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Student<span>Feedback</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="feedback.html">Submit Feedback</a>
+      <a href="view-feedback.html">View Feedback</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </header>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-header solid-header">
+    <h1>Contact Us</h1>
+    <p>Have questions or suggestions? Reach out to us!</p>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <main class="contact-section">
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@imail.sunway.edu.my" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="6" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Our Contact Details</h2>
+        <div class="info-card">
+          <i class="fas fa-envelope"></i>
+          <p>Email: support@sunway.edu.my</p>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-phone"></i>
+          <p>Phone: +60 3-5632 1000</p>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Location: Sunway University, Bandar Sunway, Malaysia</p>
+        </div>
+       <div class="info-card map-card">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.399845987495!2d101.58474831523417!3d3.073961354952101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4f4a2bf1516f%3A0x74a6f17f86b1b3d5!2sSunway%20University!5e0!3m2!1sen!2smy!4v1697499158412!5m2!1sen!2smy"
+    width="100%"
+    height="300"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <!-- Get Directions Button -->
+  <a href="https://www.google.com/maps/dir/?api=1&destination=Sunway+University,+Bandar+Sunway,+Malaysia"
+     target="_blank"
+     class="cta-btn" style="margin-top:10px; display:inline-block;">
+    Get Directions
+  </a>
+</div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Student Feedback Portal created by Yaw Chin Hen | Sunway University</p>
+  </footer>
+</body>
+</html>
+
