@@ -6,7 +6,6 @@ The Student Feedback Portal is a responsive web application developed to allow s
 
 The platform demonstrates how web technologies can support structured data collection, transparency, and continuous improvement in an academic environment — aligning closely with Business Analytics principles.
 
----
 
 ## 🎯 Objectives  
 - Provide an easy-to-use feedback submission system  
@@ -16,7 +15,6 @@ The platform demonstrates how web technologies can support structured data colle
 - Apply responsive web design for cross-device accessibility  
 - Lay groundwork for future analytics (sentiment, trends, NLP)
 
----
 
 ## 👥 Target Users  
 - Students  
@@ -24,7 +22,6 @@ The platform demonstrates how web technologies can support structured data colle
 - University Administrators  
 - Developers/Testers reviewing the system
 
----
 
 ## 🖥️ Features  
 
@@ -54,7 +51,6 @@ The platform demonstrates how web technologies can support structured data colle
 - CSS Grid & Flexbox layout  
 - Media query optimization  
 
----
 
 ## 🛠️ Technologies Used  
 
@@ -66,7 +62,6 @@ The platform demonstrates how web technologies can support structured data colle
 | Media | Images, YouTube Embed |
 | Maps | Google Maps iframe |
 
----
 
 ## 📂 Folder Structure  
 /project-folder
@@ -90,8 +85,6 @@ The platform demonstrates how web technologies can support structured data colle
 └── /images
 
 
----
-
 ## 📈 Business Analytics Relevance  
 This project simulates a structured feedback data pipeline where collected textual responses can later be used for:
 
@@ -101,4 +94,3 @@ This project simulates a structured feedback data pipeline where collected textu
 - Performance Evaluation  
 - Decision Support in Education  
 
----
